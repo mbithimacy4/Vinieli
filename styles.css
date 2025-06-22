@@ -1,0 +1,257 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#hd{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+   /* border: 3px solid #c72323; */
+
+  }
+
+
+
+
+
+  #hdtext{
+    font-size: 15px;
+    text-align: center;
+    /* border: yellowgreen 3px solid ; */
+  }
+  #v{
+    margin-right: 10px;
+    color: chartreuse;
+  }
+  #d{
+    color: dodgerblue;
+  }
+
+  #s{
+    color: dodgerblue;
+  }
+  #H3{
+    color: darkred;
+    text-transform: capitalize;
+    font-size: x-large;
+  }
+  #p1{
+    text-transform: capitalize;
+  font-size: larger;
+
+  }
+  #p2{
+    text-transform: capitalize;
+    font-size: larger;
+    color:dodgerblue
+  
+  }
+  #t{
+text-transform: capitalize;
+text-align: center;
+color: rgb(139, 0, 0);
+font-style: italic;
+font-size: 30px;
+
+  }
+
+  #logo{
+    width: 140px;
+    height: 160px;
+  }
+
+  #logo-img{
+    width: 140px;
+    height: 160px;
+  }
+  #abt{
+    text-align: center;
+    color: dodgerblue;
+    text-transform: capitalize;
+  }
+#sp1{
+  color: chartreuse;
+  text-transform: capitalize;
+}
+  #secc{
+font-size: larger;
+text-align: center;
+background-color: aquamarine;
+  }
+  #ser{
+    text-align: center;
+    color: dodgerblue;
+    text-transform: capitalize;
+
+  }
+#iabt{
+  text-align: center;
+  text-transform: capitalize;
+  color: dodgerblue;
+}
+#p1{
+  text-align: center;
+  font-size: larger;
+}
+#p3{
+  text-align: center;
+  font-size: larger;
+}
+#secabt{
+  background-color: aqua;
+  padding: 40px;
+  /* border-radius: 0%; */
+  font-size: 22px;
+}
+#ser5{
+  text-align: center;
+  font-size: larger;
+  background-color: aquamarine;
+  color: darkblue;
+}
+#hh{
+  text-align: center;
+  text-transform: capitalize;
+  color: dodgerblue;
+}
+#hhh{
+  color: rgb(31, 201, 59);
+}
+#secser{
+  text-align: center;
+  font-size: larger;
+  /* color: rgb(215, 68, 68); */
+  background-color: aliceblue;
+  padding: 40px;
+   /* border: 3px solid #555; */
+  /* border-radius: 10px; */
+  /* border: 3px solid #e20e0e; */
+  
+}
+
+#secser ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#secser li{
+  /* border: #0ee263 5px solid; */
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #6cb7e6;
+  color: #fff;
+  font-size: 30px;
+  
+}
+#hser{
+  color: rgb(3, 221, 3);
+}
+.flex-container {
+  display: flex;           
+  gap: 10px;              
+  list-style: none;       
+    padding: 0;             
+  margin: 0;              
+}
+#condsec1{
+  text-align: center;
+  text-transform: capitalize;
+  color: dodgerblue;
+}
+#condsec{
+text-align: center;
+padding: 40px;
+background-color: aquamarine;
+font-size: larger;
+}
+#condsec2{
+  text-decoration: aqua;
+  text-transform: capitalize;
+  color: blue;
+}
+#for{
+  background-color: #f9f9f9;
+      padding: 20px;
+      width: 300px;
+      margin: auto;
+}
+#but{
+  background-color: green;
+      color: white;
+      padding: 10px;
+      types: submit;
+}
+#consp{
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+#secin{
+  text-align: center;
+padding: 40px;
+background-color: aquamarine;
+font-size: 22px;
+}
+#hin{
+  text-transform: capitalize;
+  color: dodgerblue; 
+}
+#hhin{
+  text-transform: capitalize;
+  color: dodgerblue;
+}
+#forin{
+  background-color: #f9f9f9;
+      padding: 20px;
+      width: 300px;
+      margin: auto;
+}
+#spin{
+   display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+#butin{
+  background-color: green;
+      color: white;
+      padding: 10px;
+      types: submit;
+}
+#achid{
+  text-align: center;
+padding: 40px;
+background-color: aquamarine;
+font-size: larger;
+}
+#achid1{
+  text-transform: capitalize;
+  color: dodgerblue;
+}
+#secgl{
+  text-align: center;
+padding: 40px;
+background-color: aquamarine;
+font-size: larger;
+}
+#gal{
+  color: dodgerblue;
+}
+#idspan{
+  text-transform: capitalize;
+  font-size: xx-large;
+}
+
+footer{
+  background-color: rgb(118, 231, 38);
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+}
