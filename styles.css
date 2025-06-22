@@ -1,257 +1,632 @@
-body{
-  margin: 0;
-  padding: 0;
+/* <!--Global Styles--> */
+* {
+  box-sizing: border-box;
 }
 
-#hd{
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* <!--Header and Navigation--> */
+header {
+  background: linear-gradient(135deg, #f0f8ff, #e6f3ff);
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#hd {
   height: auto;
   display: flex;
-  justify-content: center;
   justify-content: space-between;
-   /* border: 3px solid #c72323; */
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 
-  }
+#logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: auto;
+  height: auto;
+}
 
+#logo-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
 
+#logo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
 
+#hdtext {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
 
+#hdtext h1 {
+  margin: 0 0 10px 0;
+  font-size: 2rem;
+}
 
-  #hdtext{
-    font-size: 15px;
-    text-align: center;
-    /* border: yellowgreen 3px solid ; */
-  }
-  #v{
-    margin-right: 10px;
-    color: chartreuse;
-  }
-  #d{
-    color: dodgerblue;
-  }
+#v {
+  margin-right: 10px;
+  color: chartreuse;
+}
 
-  #s{
-    color: dodgerblue;
-  }
-  #H3{
-    color: darkred;
-    text-transform: capitalize;
-    font-size: x-large;
-  }
-  #p1{
-    text-transform: capitalize;
-  font-size: larger;
+#d {
+  color: dodgerblue;
+}
 
-  }
-  #p2{
-    text-transform: capitalize;
-    font-size: larger;
-    color:dodgerblue
-  
-  }
-  #t{
-text-transform: capitalize;
-text-align: center;
-color: rgb(139, 0, 0);
-font-style: italic;
-font-size: 30px;
+#s {
+  color: dodgerblue;
+}
 
-  }
+#H3 {
+  color: darkred;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
 
-  #logo{
-    width: 140px;
-    height: 160px;
-  }
+#t {
+  text-transform: capitalize;
+  text-align: center;
+  color: rgb(139, 0, 0);
+  font-style: italic;
+  font-size: 1.5rem;
+  display: block;
+  margin-top: 15px;
+}
 
-  #logo-img{
-    width: 140px;
-    height: 160px;
-  }
-  #abt{
-    text-align: center;
-    color: dodgerblue;
-    text-transform: capitalize;
-  }
-#sp1{
+nav {
+  background-color: #1e90ff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#nav-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+/* <!--Home Page--> */
+main {
+  min-height: calc(100vh - 200px);
+}
+
+#page-title h1 {
+  text-align: center;
+  color: dodgerblue;
+  text-transform: capitalize;
+  margin: 30px 0;
+}
+
+#secabt {
+  background-color: aqua;
+  padding: 40px 20px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+#iabt {
+  text-align: center;
+  text-transform: capitalize;
+  color: dodgerblue;
+  margin-bottom: 20px;
+}
+
+#sp1 {
   color: chartreuse;
   text-transform: capitalize;
 }
-  #secc{
-font-size: larger;
-text-align: center;
-background-color: aquamarine;
-  }
-  #ser{
-    text-align: center;
-    color: dodgerblue;
-    text-transform: capitalize;
 
-  }
-#iabt{
+#p1, #p3 {
   text-align: center;
-  text-transform: capitalize;
-  color: dodgerblue;
+  font-size: 1.1rem;
+  margin: 15px 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
-#p1{
+
+#secser {
   text-align: center;
-  font-size: larger;
-}
-#p3{
-  text-align: center;
-  font-size: larger;
-}
-#secabt{
-  background-color: aqua;
-  padding: 40px;
-  /* border-radius: 0%; */
-  font-size: 22px;
-}
-#ser5{
-  text-align: center;
-  font-size: larger;
-  background-color: aquamarine;
-  color: darkblue;
-}
-#hh{
-  text-align: center;
-  text-transform: capitalize;
-  color: dodgerblue;
-}
-#hhh{
-  color: rgb(31, 201, 59);
-}
-#secser{
-  text-align: center;
-  font-size: larger;
-  /* color: rgb(215, 68, 68); */
+  font-size: 1.1rem;
   background-color: aliceblue;
-  padding: 40px;
-   /* border: 3px solid #555; */
-  /* border-radius: 10px; */
-  /* border: 3px solid #e20e0e; */
-  
+  padding: 40px 20px;
 }
 
-#secser ul{
+#hser {
+  color: rgb(3, 221, 3);
+  margin-bottom: 30px;
+}
+
+#secser ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-#secser li{
-  /* border: #0ee263 5px solid; */
+#secser li {
   border-radius: 20px;
-  margin: 10px;
-  padding: 10px;
+  padding: 15px;
   background-color: #6cb7e6;
   color: #fff;
-  font-size: 30px;
-  
-}
-#hser{
-  color: rgb(3, 221, 3);
-}
-.flex-container {
-  display: flex;           
-  gap: 10px;              
-  list-style: none;       
-    padding: 0;             
-  margin: 0;              
-}
-#condsec1{
-  text-align: center;
-  text-transform: capitalize;
-  color: dodgerblue;
-}
-#condsec{
-text-align: center;
-padding: 40px;
-background-color: aquamarine;
-font-size: larger;
-}
-#condsec2{
-  text-decoration: aqua;
-  text-transform: capitalize;
-  color: blue;
-}
-#for{
-  background-color: #f9f9f9;
-      padding: 20px;
-      width: 300px;
-      margin: auto;
-}
-#but{
-  background-color: green;
-      color: white;
-      padding: 10px;
-      types: submit;
-}
-#consp{
-  display: block;
-  width: 100%;
-  margin-bottom: 10px;
-}
-#secin{
-  text-align: center;
-padding: 40px;
-background-color: aquamarine;
-font-size: 22px;
-}
-#hin{
-  text-transform: capitalize;
-  color: dodgerblue; 
-}
-#hhin{
-  text-transform: capitalize;
-  color: dodgerblue;
-}
-#forin{
-  background-color: #f9f9f9;
-      padding: 20px;
-      width: 300px;
-      margin: auto;
-}
-#spin{
-   display: block;
-  width: 100%;
-  margin-bottom: 10px;
-}
-#butin{
-  background-color: green;
-      color: white;
-      padding: 10px;
-      types: submit;
-}
-#achid{
-  text-align: center;
-padding: 40px;
-background-color: aquamarine;
-font-size: larger;
-}
-#achid1{
-  text-transform: capitalize;
-  color: dodgerblue;
-}
-#secgl{
-  text-align: center;
-padding: 40px;
-background-color: aquamarine;
-font-size: larger;
-}
-#gal{
-  color: dodgerblue;
-}
-#idspan{
-  text-transform: capitalize;
-  font-size: xx-large;
+  font-size: 1.1rem;
+  transition: transform 0.3s;
 }
 
-footer{
+#secser li:hover {
+  transform: translateY(-5px);
+}
+
+#secin {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: aquamarine;
+  font-size: 1.1rem;
+}
+
+#hin, #hhin {
+  text-transform: capitalize;
+  color: dodgerblue;
+  margin-bottom: 20px;
+}
+
+#contact-info {
+  margin-bottom: 30px;
+}
+
+.whatsapp-link {
+  display: inline-block;
+  background-color: #25d366;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  margin: 10px;
+  transition: background-color 0.3s;
+}
+
+.whatsapp-link:hover {
+  background-color: #1aaf53;
+}
+
+#forin {
+  background-color: #f9f9f9;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+#form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#form-container input,
+#form-container textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+#form-container textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+#butin {
+  background-color: green;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+#butin:hover {
+  background-color: darkgreen;
+}
+
+/* <!--About Us Page--> */
+#secc {
+  font-size: 1.1rem;
+  text-align: center;
+  background-color: aquamarine;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+#abt {
+  text-align: center;
+  color: dodgerblue;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+/* <!--Services Page--> */
+#ser5 {
+  text-align: center;
+  font-size: 1.1rem;
+  background-color: aquamarine;
+  color: darkblue;
+  padding: 40px 20px;
+}
+
+#hh {
+  text-align: center;
+  text-transform: capitalize;
+  color: dodgerblue;
+  margin-bottom: 30px;
+}
+
+#hhh {
+  color: rgb(31, 201, 59);
+  margin-bottom: 30px;
+}
+
+.service-item {
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  max-width: 600px;
+  text-align: left;
+}
+
+.service-item h3 {
+  color: dodgerblue;
+  margin-bottom: 10px;
+  border-bottom: 2px solid chartreuse;
+  padding-bottom: 5px;
+}
+
+/* <!--Gallery Page--> */
+#secgl {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: aquamarine;
+  font-size: 1.1rem;
+}
+
+#gal {
+  color: dodgerblue;
+  margin-bottom: 20px;
+}
+
+#gal1 {
+  color: darkred;
+  margin-bottom: 30px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.label {
+  background-color: dodgerblue;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* <!--Achievement Page--> */
+#achid {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: aquamarine;
+  font-size: 1.1rem;
+}
+
+#achid1 {
+  text-transform: capitalize;
+  color: dodgerblue;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.stat {
+  font-size: 2rem;
+  font-weight: bold;
+  color: chartreuse;
+  padding: 15px;
+  background-color: dodgerblue;
+}
+
+.desc {
+  padding: 20px;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* <!--Contact Us Page--> */
+#condsec {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: aquamarine;
+  font-size: 1.1rem;
+  max-width: 900px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+#condsec1 {
+  text-transform: capitalize;
+  color: dodgerblue;
+  margin-bottom: 30px;
+}
+
+#condsec2 {
+  text-transform: capitalize;
+  color: darkred;
+  margin: 20px 0;
+}
+
+#condsec3 {
+  font-size: 1.1rem;
+  margin: 15px 0;
+  line-height: 1.6;
+}
+
+#contact-details {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+#contact-info {
+  margin: 20px 0;
+}
+
+#contact-info p {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+#social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.tiktok-link {
+  display: inline-block;
+  background-color: #000;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+}
+
+.tiktok-link:hover {
+  background-color: #333;
+}
+
+#for {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#for h3 {
+  color: dodgerblue;
+  margin-bottom: 20px;
+}
+
+#form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+#form-fields input,
+#form-fields textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+#form-fields textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+#but {
+  background-color: green;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+#but:hover {
+  background-color: darkgreen;
+}
+
+/* <!--Footer--> */
+footer {
   background-color: rgb(118, 231, 38);
   text-align: center;
-  font-size: 30px;
+  font-size: 1.2rem;
   padding: 20px;
+  margin-top: auto;
+}
+
+/* <!--Mobile Responsive--> */
+@media (max-width: 768px) {
+  #hd {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #hdtext h1 {
+    font-size: 1.5rem;
+  }
+  
+  #H3 {
+    font-size: 1rem;
+  }
+  
+  #t {
+    font-size: 1.2rem;
+  }
+  
+  #nav-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  nav a {
+    display: block;
+    text-align: center;
+  }
+  
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+  
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  
+  #secser ul {
+    grid-template-columns: 1fr;
+  }
+  
+  #forin {
+    margin: 0 10px;
+  }
+  
+  #social-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #for {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  #logo-img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  #logo h1 {
+    font-size: 1.2rem;
+  }
+  
+  body {
+    font-size: 14px;
+  }
+  
+  section {
+    padding: 20px 10px !important;
+  }
 }
