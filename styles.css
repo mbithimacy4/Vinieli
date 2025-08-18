@@ -142,7 +142,7 @@ main {
 }
 
 #sp1 {
-  color: chartreuse;
+  color: rgb(43, 7, 223);
   text-transform: capitalize;
 }
 
@@ -560,7 +560,7 @@ footer {
 /* <!--Mobile Responsive--> */
 @media (max-width: 768px) {
   #hd {
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
   }
   
