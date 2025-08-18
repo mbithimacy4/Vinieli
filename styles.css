@@ -155,6 +155,15 @@ main {
   margin-right: auto;
 }
 
+.seclog img{
+  width: 300px;
+  height: 300px;
+}
+.seclog{
+  margin-top: 10px;
+  text-align: center;
+}
+
 #secser {
   text-align: center;
   font-size: 1.1rem;
